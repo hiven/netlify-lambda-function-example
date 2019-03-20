@@ -17,6 +17,7 @@ exports.handler = function(event, context, callback) {
       headers,
       body: ''
     });
+    return;
   }
 
   //-- Parse the body contents into an object.
